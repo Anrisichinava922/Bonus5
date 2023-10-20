@@ -1,0 +1,56 @@
+@media (width > 1440px){
+    .mainbox{
+        height: 800px;
+        background-image: url(./assets/desktopback.svg);
+        background-repeat: no-repeat;
+    }
+    .box1{
+        display: flex;
+        flex-direction: row;
+        column-gap: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+    .firstbox{
+        width: 350px;
+        height: 201px;
+        flex-shrink: 0;
+        margin-top: -45px;
+    }
+    .secondbox{
+        position: relative;
+        align-items: start;
+        text-align: start;
+        padding-left: 40px;
+        width: 540px;
+        height: 154px;
+        flex-shrink: 0;
+        background-image: url(./assets/Path\ 3.svg);
+        background-repeat: no-repeat;
+        background-position: 118.5% 15%;
+    }
+    .line{
+        width: 459px;
+        height: 20px;
+        flex-shrink: 0;
+    }
+    .line1{
+        border-radius: 10px;
+        width: 339px;
+        height: 14px;
+        flex-shrink: 0;
+    }
+    h1{
+        display: flex;
+        align-items: start;
+        text-align: start;
+    }
+    .txt1{
+        column-gap: 380px;
+    }
+    .scboximg{
+        position: absolute;
+        left: 250px;
+        bottom: 129px;
+    }
+}
